@@ -1,18 +1,14 @@
-# Игнорируем node_modules (если Node.js проект)
-node_modules/
+# Игнорируем папку eslint-typescript
+eslint-typescript/
 
-# Игнорируем папку сборки / дистрибутивы
-dist/
-build/
+# Игнорируем все node_modules рекурсивно
+**/node_modules/
 
-# Игнорируем временные файлы редакторов
+# Логи, временные файлы
 *.log
 *.tmp
 *.swp
 
-# Игнорируем систему контроля версий IDE
+# Настройки редакторов
 .vscode/
 .idea/
-
-# Игнорируем конкретную папку, которую не хотим в Git
-eslint-typescript/
